@@ -78,27 +78,27 @@ $(function(){
   ).attr(attr).scale(.016963, -.016963, 0,0).translate(0,239);
 
   europe
-  .mouseover(function(){europe.animate({fill:"red"}            , 400 , '<>');})
-  .mouseout(function(){europe.animate({fill:'#666'}            , 400 , '<>');});
+    .mouseover(function(){europe.animate({fill:"red"}            , 400 , '<>');})
+    .mouseout(function(){europe.animate({fill:'#666'}            , 400 , '<>');});
 
   asia
-  .mouseover(function(){asia.animate({fill:"blue"}             , 400 , '<>');})
-  .mouseout(function(){asia.animate({fill:'#666'}              , 400 , '<>');});
+    .mouseover(function(){asia.animate({fill:"blue"}             , 400 , '<>');})
+    .mouseout(function(){asia.animate({fill:'#666'}              , 400 , '<>');});
 
   africa
-  .mouseover(function(){africa.animate({fill:"savanne"}        , 400 , '<>');})
-  .mouseout(function(){africa.animate({fill:'#666'}            , 400 , '<>');});
+    .mouseover(function(){africa.animate({fill:"savanne"}        , 400 , '<>');})
+    .mouseout(function(){africa.animate({fill:'#666'}            , 400 , '<>');});
 
   australia
-  .mouseover(function(){australia.animate({fill:"green"}       , 400 , '<>');})
-  .mouseout(function(){australia.animate({fill:'#666'}         , 400 , '<>');});
+    .mouseover(function(){australia.animate({fill:"green"}       , 400 , '<>');})
+    .mouseout(function(){australia.animate({fill:'#666'}         , 400 , '<>');});
 
   north_america
-  .mouseover(function(){north_america.animate({fill:"darkred"} , 400 , '<>');})
-  .mouseout(function(){north_america.animate({fill:'#666'}     , 400 , '<>');});
+    .mouseover(function(){north_america.animate({fill:"darkred"} , 400 , '<>');})
+    .mouseout(function(){north_america.animate({fill:'#666'}     , 400 , '<>');});
 
   south_america
-  .mouseover(function(){south_america.animate({fill:"magenta"} , 400 , '<>');})
-  .mouseout(function(){south_america.animate({fill:'#666'}     , 400 , '<>');});
+    .mouseover(function(){south_america.animate({fill:"magenta"} , 400 , '<>');})
+    .mouseout(function(){south_america.animate({fill:'#666'}     , 400 , '<>');});
 
 });
